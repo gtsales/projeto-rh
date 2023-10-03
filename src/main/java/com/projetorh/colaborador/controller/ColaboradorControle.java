@@ -11,8 +11,8 @@ import com.projetorh.colaborador.model.Colaborador;
 import com.projetorh.colaborador.repositorio.ColaboradorRepositorio;
 
 @RestController
-@RequestMapping("/Colaborador")
-public class ControleColaborador {
+@RequestMapping("/colaboradores")
+public class ColaboradorControle {
     
     @Autowired
     private ColaboradorRepositorio colaborador_repositorio;

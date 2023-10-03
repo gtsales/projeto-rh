@@ -39,7 +39,7 @@ public class Colaborador {
     private String telefone;
 
     @OneToOne
-    @JoinColumn(name = "endereco", referencedColumnName = "id")
+    @JoinColumn(name = "endereco_colaborador", referencedColumnName = "id")
     private Endereco endereco;
 
 }
